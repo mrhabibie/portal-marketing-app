@@ -1,0 +1,34 @@
+class ApiUrl {
+  static const String login = '/site/login';
+  static const String register = '/site/register';
+  static const String logout = '/site/logout';
+  static const String home = '/site/home-new2';
+  static const String profile = '/site/get-profile';
+  static const String masterContactType = '/master/contact-types';
+  static const String masterContactRole = '/master/roles';
+  static const String masterProvinces = '/master/provinces';
+  static const String masterCities = '/master/cities';
+  static const String masterSuburbs = '/master/suburbs';
+  static const String masterAreas = '/master/areas';
+  static const String masterFullAddresses = '/master/get-full-address';
+  static const String masterBrands = '/master/brands';
+  static const String masterUsers = '/master/users';
+  static const String countContact = '/contact/count';
+  static const String getContact = '/contact/get';
+  static const String getContactDetail = '/contact/detail';
+  static const String createContact = '/contact/add';
+  static const String getContactType = '/contact/get-type';
+  static const String createContactType = '/contact/add-type';
+  static const String getContactAddress = '/contact/get-address';
+  static const String createContactAddress = '/contact/add-address';
+  static const String followUp = '/follow-up';
+  static const String followUpCustomers = '/follow-up/customers';
+  static const String reminders = '/follow-up/reminder';
+  static const String reminderDetail = '/follow-up/reminder-detail';
+  static const String createFollowUp = '/follow-up/add';
+  static const String getSalesInvoice = '/sales-invoice';
+  static const String getSalesInvoiceDetail = '/sales-invoice/view';
+  static const String getVisit = '/visit';
+  static const String createVisit = '/visit/create';
+  static const String getDetailVisit = '/visit/view';
+}
